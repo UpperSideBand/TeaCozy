@@ -1,7 +1,7 @@
 # TeaCozy
 Tea Cozy Mockup
 
-In this project, I will create a fictional tea shop website on my own computer.
+In this project, I will create a fictional tea shop website.
 
 A design spec and image assets have been provided to help me along the way.
 
