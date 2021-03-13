@@ -11,34 +11,31 @@ html {
     text-align: center;
 }
 
+h2,
+h3,
+h4 {
+    padding: 10px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
 h2 {
     font-size: 1.5rem;
-    padding: 10px;
-    font-weight: bold;
 }
 
 h3 {
     font-size: 1.17rem;
-    font-weight: bold;
-    padding: 10px;
 }
 
-h4 {
-    padding: 10px;
-    font-weight: bold;
-}
-
-h5 {
-    font-size: 0.83rem;
-    font-weight: bold;
-    margin: 31px;
-}
-
+h5,
 h6 {
     font-size: 0.83rem;
-    text-align: left;
-    font-weight: bold;
-    margin: 31px;
 }
 
 header {
@@ -87,7 +84,7 @@ header a {
 
 .gallery {
     padding-top: 140px;
-    width: 1200px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -119,6 +116,7 @@ header a {
     width: 1200px;
     height: 570px;
     margin: auto;
+    margin-top: 70px;
     padding-top: 60px;
 }
 
@@ -143,4 +141,14 @@ header a {
     margin: 22px auto;
     width: 280px;
     padding: 10px 0px;
+}
+
+footer h5,
+footer h6 {
+    margin: 31px;
+}
+
+footer h6 {
+    text-align: left;
+    padding-top: 40px;
 }
