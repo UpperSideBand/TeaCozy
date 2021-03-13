@@ -1,0 +1,146 @@
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+html {
+    font-size: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.17rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h4 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 0.83rem;
+    font-weight: bold;
+    margin: 31px;
+}
+
+h6 {
+    font-size: 0.83rem;
+    text-align: left;
+    font-weight: bold;
+    margin: 31px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    z-index: 100;
+}
+
+header img {
+    height: 50px;
+    margin: 10px;
+}
+
+header nav {
+    display: flex;
+}
+
+header a {
+    margin: 20px 10px;
+}
+
+.banner {
+    display: flex;
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 69px;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+
+.banner div {
+    background-color: black;
+    opacity: 0.9;
+    /* border: 1px red solid; */
+    width: 1200px;
+    margin: auto;
+}
+
+.gallery {
+    padding-top: 140px;
+    width: 1200px;
+    margin: auto;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictures figure {
+    padding: 5px;
+}
+
+.pictures figcaption {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.pictures img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.locations {
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 1200px;
+    height: 570px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.adress-container {
+    display: flex;
+    margin: auto;
+    width: 980px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.adress-container div {
+    width: 300px;
+    height: 280px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+.adress-container p {
+    margin: 22px auto;
+    width: 280px;
+    padding: 10px 0px;
+}
